@@ -1,0 +1,104 @@
+/*
+* @Author: 陈嘉璇
+* @Date:   2019-12-09 10:45:36
+* @Last Modified by:   陈嘉璇
+* @Last Modified time: 2019-12-14 19:47:27
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.top{
+	background: #cccccc;
+	height: 20px;
+	margin: 0 auto;
+}
+#runs{
+	width: 850px;
+	height: 20px;
+	margin-left: 10px;
+	overflow: hidden;
+}
+.words{
+	width: 1000px;
+	height: 20px;
+	color: red;
+	font-size: 12px;
+}
+#word1{
+	position: relative;
+	left: 850px;
+}
+.img0{
+	margin-left: 170px;
+	margin-right: 10px;
+	float: left;
+}
+.box{
+	width: 1200px;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.slide img{
+	width: 1200px;
+
+	margin: 0 auto;
+}
+.box span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #ffffff;
+	top: 100px;
+	line-height: 50px;
+	background-color: red;
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: gray;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background-color: red;
+}
